@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/") 
 def pagina_inicial(): 
-    return render_template("pagina-inicial.html") 
+    return render_template("index.html") 
 
 @app.route("/alunos")
 def alunos():
